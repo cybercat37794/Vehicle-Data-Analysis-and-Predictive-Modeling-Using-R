@@ -20,7 +20,6 @@ Key tasks include:
 - [File Structure](#file-structure)
 - [How to Run the Code](#how-to-run-the-code)
 - [Results and Insights](#results-and-insights)
-- [License](#license)
 
 ---
 
@@ -52,6 +51,8 @@ To run this project, ensure you have the following installed:
 - `Statistical Analysis: corrplot`
 - `Data Cleaning: Handling missing values, encoding categorical data, and removing duplicates`
 
+
+## File Structure
 /Vehicle-Data-Analysis
 │
 ├── data/
@@ -66,7 +67,8 @@ To run this project, ensure you have the following installed:
 ├── README.md                      # Project overview and instructions
 └── LICENSE                        # License file (if applicable)
 
-1. How to Run the Code
+
+## How to Run the Code
 git clone [https://github.com/your-username/vehicle-data-analysis.git](https://github.com/cybercat37794/Vehicle-Data-Analysis-and-Predictive-Modeling-Using-R/tree/main)
 
 2. Open the project folder in RStudio.
@@ -75,20 +77,13 @@ git clone [https://github.com/your-username/vehicle-data-analysis.git](https://g
 ```r
 install.packages(c("dplyr", "ggplot2", "tidyr", "cluster", "factoextra", "DBSCAN", "corrplot"))
 ```
-4. Open and run the R scripts in the analysis/ folder:
 
-data_preprocessing.R for data cleaning.
-exploratory_analysis.R for exploratory data analysis and visualizations.
-clustering_analysis.R for clustering.
-predictive_analysis.R for predictive modeling and feature engineering.
-Results and Insights
-The analysis led to the following key insights:
+# Results and Insights
+The analysis revealed the following insights:
 
-Car Price Trends: The analysis uncovered trends in car pricing, with key factors such as the car’s age, fuel type, and transmission type having a significant impact on its price.
-Clustering: K-means and DBSCAN clustering algorithms revealed distinct clusters in the dataset based on vehicle attributes like Selling_Price and Kms_Driven.
-Feature Importance: Features such as the vehicle's age, fuel type, transmission, and kilometers driven played crucial roles in determining the vehicle’s selling price.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- `Car Price Trends: The analysis uncovered trends in car pricing, with key factors such as the car’s age, fuel type, and transmission type having a significant impact on its price.`
+- `Clustering: K-means and DBSCAN clustering algorithms revealed distinct clusters in the dataset based on vehicle attributes like Selling_Price and Kms_Driven.`
+- `Feature Importance: Features such as the vehicle's age, fuel type, transmission, and kilometers driven played crucial roles in determining the vehicle’s selling price.`
 
 ---
 
