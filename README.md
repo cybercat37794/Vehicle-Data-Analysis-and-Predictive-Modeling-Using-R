@@ -52,7 +52,7 @@ To run this project, ensure you have the following installed:
 
 
 ## How to Run the Code
-git clone [https://github.com/your-cybercat37794/vehicle-data-analysis.git](https://github.com/cybercat37794/Vehicle-Data-Analysis-and-Predictive-Modeling-Using-R/tree/main)
+git clone [https://github.com/cybercat37794/vehicle-data-analysis.git](https://github.com/cybercat37794/Vehicle-Data-Analysis-and-Predictive-Modeling-Using-R/tree/main)
 
 2. Open the project folder in RStudio.
 
