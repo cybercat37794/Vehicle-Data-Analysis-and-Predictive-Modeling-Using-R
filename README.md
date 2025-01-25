@@ -17,7 +17,6 @@ Key tasks include:
 - [Installation](#installation)
 - [Project Tasks](#project-tasks)
 - [Technologies Used](#technologies-used)
-- [File Structure](#file-structure)
 - [How to Run the Code](#how-to-run-the-code)
 - [Results and Insights](#results-and-insights)
 
@@ -50,22 +49,6 @@ To run this project, ensure you have the following installed:
 - Clustering Algorithms: k-means, Hierarchical Clustering, DBSCAN
 - Statistical Analysis: corrplot
 - Data Cleaning: Handling missing values, encoding categorical data, and removing duplicates
-
-
-## File Structure
-/Vehicle-Data-Analysis
-│
-├── data/
-│   └── vehicle_data.csv           # Vehicle dataset (CSV file)
-│
-├── analysis/
-│   ├── data_preprocessing.R       # R script for data cleaning and preprocessing
-│   ├── exploratory_analysis.R     # R script for EDA and visualizations
-│   ├── clustering_analysis.R      # R script for clustering
-│   └── predictive_analysis.R      # R script for predictive modeling and feature engineering
-│
-├── README.md                      # Project overview and instructions
-└── LICENSE                        # License file (if applicable)
 
 
 ## How to Run the Code
