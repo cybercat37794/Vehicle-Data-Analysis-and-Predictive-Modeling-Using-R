@@ -2,7 +2,7 @@
 ##################################################################
 
 # Loading the dataset in load_dataset
-load_dataset <- read.csv("H:/University of Windsor/2nd Term (Winter 25)/COMP 8157 ADVANCED DATABASE TOPICS SEC 1/Lab Task 1/Vehicle.csv")
+load_dataset <- read.csv("../Vehicle.csv")
 
 # head of the dataset
 head(load_dataset)
